@@ -1,9 +1,7 @@
 package com.graves.tree;
-import org.omg.CORBA.ULongLongSeqHelper;
 
 import java.util.Arrays;
-import	java.util.LinkedList;
-
+import java.util.LinkedList;
 import java.util.Queue;
 
 /**
@@ -29,17 +27,17 @@ public class TreeNodeTest03 {
         return node;
     }
 
-    public static void levelOrderTraversal(TreeNode root){
-        Queue<TreeNode> queue = new LinkedList<TreeNode> ();
+    public static void levelOrderTraversal(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
         LinkedList<String> linkedList = new LinkedList<>();
         queue.add(root);
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
             System.out.println(node.data);
-            if(node.leftChild != null){
+            if (node.leftChild != null) {
                 queue.add(node.leftChild);
             }
-            if(node.rightChild != null){
+            if (node.rightChild != null) {
                 queue.add(node.rightChild);
             }
         }
