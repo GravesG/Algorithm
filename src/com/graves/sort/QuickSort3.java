@@ -33,6 +33,7 @@ public class QuickSort3 {
                 leftParams.put("endIndex", pivotIndex - 1);
                 quickSortStack.push(leftParams);
             }
+
             if (param.get("endIndex") > pivotIndex + 1) {
                 Map<String, Integer> rightParams = new HashMap<>();
                 rightParams.put("startIndex", pivotIndex + 1);
