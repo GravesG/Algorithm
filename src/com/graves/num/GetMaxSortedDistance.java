@@ -61,6 +61,14 @@ public class GetMaxSortedDistance {
         return maxDistance;
     }
 
+    /**
+     * @author Graves
+     * @DESCRIPTION:
+     * @params: 桶结构
+     * @return: 
+     * @Date: 2020/5/28 23:22 
+     * @Modified By:  
+    */
     private static class Bucket{
         Integer min;
         Integer max;
