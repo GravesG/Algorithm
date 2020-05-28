@@ -65,8 +65,8 @@ public class GetMaxSortedDistance {
      * @author Graves
      * @DESCRIPTION:
      * @params: 桶结构
-     * @return: 
-     * @Date: 2020/5/28 23:22 
+     * @return:
+     * @Date: 2020/5/28 23:23
      * @Modified By:  
     */
     private static class Bucket{
